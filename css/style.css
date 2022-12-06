@@ -3,8 +3,9 @@
     src: url("./Roboto-Regular.ttf");
 }
 
-html{
+html *{
     font-family: Roboto-Regular, serif;
+    font-weight: 400;
 }
 
 body{
@@ -12,8 +13,11 @@ body{
 }
 
 div#mainContainer{
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
+
+
+    margin-bottom: 250px;
 }
 
 div#mainContainer header{
@@ -30,4 +34,79 @@ div#mainContainer header nav a {
     margin-left: 20px;
     text-decoration: none;
     color: black;
+}
+
+div#mainContainer section#contenu{
+    width: 100%;
+}
+
+div#mainContainer section#contenu div#bckImg{
+    /*gestion de l image d'arriere plan*/
+    background-image: url("../img/backgroung_image.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+div#mainContainer section#contenu div#bckImg img{
+    width: 200px;
+}
+
+div#mainContainer section#contenu div#bckImg h1{
+    color: white;
+}
+
+
+div#mainContainer section#contenu div#bckImg,
+div#mainContainer section#contenu div#presentation{
+    /*gestion des elements*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+div#mainContainer section#contenu div#presentation > div,
+div#mainContainer section#contenu div#presentation > h2{
+    margin-top: 50px;
+    width: 75%;
+    min-width: 350px;
+}
+
+div#mainContainer section#contenu div#presentation div#competences{
+    display: flex;
+    align-items: center;
+}
+
+div#mainContainer section#contenu div#presentation div#competences article{
+    padding: 0 20px;
+}
+
+div#mainContainer section#contenu div#presentation div#competences article h3{
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+div#mainContainer section#contenu div#presentation div#competences article p{
+    font-size: 0.8em;
+    margin-top: 30px;
+}
+
+div#mainContainer section#contenu div#presentation .colorGrisClair{
+    color: rgb(87,87,87);
+}
+
+
+div#mainContainer section#contenu div#presentation div#avis{
+    width: 60%;
+    min-width: 300px;
+}
+
+div#mainContainer section#contenu div#presentation div#avis p:first-child{
+    font-size: 1.3em;
+}
+
+div#mainContainer section#contenu div#presentation div#avis p:last-child{
+    font-weight: 300;
 }
