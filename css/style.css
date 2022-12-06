@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("./Roboto-Regular.ttf");
+}
+
+html{
+    font-family: Roboto-Regular, serif;
+}
+
+body{
+    margin: 0;
+}
+
+div#mainContainer{
+    max-width: 1440px;
+    margin: auto;
+}
+
+div#mainContainer header{
+    display: flex;
+    justify-content: space-between;
+}
+
+div#mainContainer header nav{
+    display: flex;
+    align-items: center;
+}
+
+div#mainContainer header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
