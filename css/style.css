@@ -6,18 +6,12 @@
 html *{
     font-family: Roboto-Regular, serif;
     font-weight: 400;
-}
-
-body{
-    margin: 0;
+    text-align: center;
 }
 
 div#mainContainer{
     max-width: 1200px;
     margin: auto;
-
-
-    margin-bottom: 250px;
 }
 
 div#mainContainer header{
@@ -64,7 +58,6 @@ div#mainContainer section#contenu div#presentation{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
 }
 
 div#mainContainer section#contenu div#presentation > div,
@@ -109,4 +102,35 @@ div#mainContainer section#contenu div#presentation div#avis p:first-child{
 
 div#mainContainer section#contenu div#presentation div#avis p:last-child{
     font-weight: 300;
+}
+
+div#mainContainer footer{
+    background-color: #5b359d;
+    padding-top: 18px;
+    color: white;
+}
+div#mainContainer footer .colorGrisClair{
+    color: rgba(255, 255, 255, .6);
+}
+div#mainContainer footer div#copyright{
+    font-size: 0.5em;
+    margin-bottom: 15px;
+}
+div#mainContainer footer div#social i{
+    margin: 0 40px;
+}
+div#mainContainer footer div#infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div#mainContainer footer div#infos div h2,
+div#mainContainer footer div#infos div ul li,
+div#mainContainer footer div#infos div ul p{
+    text-align: left;
+}
+div#mainContainer footer div#infos div h2{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1.0em;
 }
