@@ -121,14 +121,16 @@ div#mainContainer footer div#social i{
 }
 div#mainContainer footer div#infos{
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 div#mainContainer footer div#infos div h2,
-div#mainContainer footer div#infos div ul li,
-div#mainContainer footer div#infos div ul p{
+div#mainContainer footer div#infos div ul li{
     text-align: left;
 }
+div#mainContainer footer div#infos div#coordonnees ul li{
+    list-style-type: none;
+}
+
 div#mainContainer footer div#infos div h2{
     margin-top: 30px;
     font-weight: 400;

@@ -1,0 +1,35 @@
+@media screen and (max-width: 960px) {
+    div#mainContainer section#contenu div#presentation > div,
+    div#mainContainer section#contenu div#presentation > h2{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    div#mainContainer section#contenu div#presentation div#competences {
+        flex-direction: column;
+    }
+    div#mainContainer section#contenu div#presentation div#competences article{
+        padding: 20px;
+        width: 50%;
+        min-width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    div#mainContainer footer div#infos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#mainContainer footer div#infos div h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    div#mainContainer header img{
+        width: 50%;
+    }
+}
